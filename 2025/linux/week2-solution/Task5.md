@@ -10,11 +10,11 @@ Start a background process (ping google.com):
 ```
 Monitor with:
 
-'ps aux | grep ping'
+`ps aux | grep ping`
 
-'top' (interactive)
+`top` (interactive)
 
-'htop' (better UI for top, if installed)
+`htop`(better UI for top, if installed)
 
 Kill process by PID:
 
@@ -23,9 +23,9 @@ Kill process by PID:
 ```
 Useful networking commands:
 
-'ifconfig or ip addr' — show network interfaces
+`ifconfig or ip addr` — show network interfaces
 
-'netstat' or 'ss' — show network connections
+`netstat` or `ss` — show network connections
 
-'traceroute' 'google.com' — track path packets take to reach h
+`traceroute` `google.com` — track path packets take to reach h
 
