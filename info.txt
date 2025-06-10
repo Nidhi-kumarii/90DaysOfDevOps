@@ -2,5 +2,6 @@
 
 echo "Hi , I'M NIDHI KUMARI. I'M on a Devops journey!"
 
+ I have suusccessfully completed my githup course
 
 
