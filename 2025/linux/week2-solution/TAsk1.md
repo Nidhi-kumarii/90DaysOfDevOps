@@ -13,9 +13,9 @@ Groups are collections of users sharing common permissions.
 
 Key system files:
 
-/etc/passwd — stores user account information.
+`/etc/passwd` — stores user account information.
 
-/etc/group — defines groups and their members.
+`/etc/group` — defines groups and their members.
 
 Commands & Tasks:
 ```bash
