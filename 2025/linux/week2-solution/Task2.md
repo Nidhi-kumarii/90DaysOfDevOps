@@ -1,20 +1,20 @@
 File & Directory Permissions
 
 Task:
-Create '/devops_workspace' and a file 'project_notes.txt'.
+Create `/devops_workspace` and a file `project_notes.txt`.
 Set permissions:
 Owner can edit, group can read, others have no access.
-Use 'ls -l' to verify permissions.
+Use `ls -l` to verify permissions.
 
 ===========================
 
 Linux permissions control access to files and directories for users, groups, and others.
 
-Permissions are shown using 'ls -l' as: '-rwxr-x--- 1 owner group filename' Where:
+Permissions are shown using `ls -l`as: `-rwxr-x--- 1 owner group filename` Where:
 
-'r' = read
-'w' = write
-'x' = xecute
+`r` = read
+`w` = write
+`x` = xecute
 
 Setting permissions example:
 
