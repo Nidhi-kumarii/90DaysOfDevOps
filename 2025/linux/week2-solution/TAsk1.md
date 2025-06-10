@@ -17,3 +17,37 @@ Key system files:
 
 /etc/group — defines groups and their members.
 
+Commands & Tasks:
+
+Create a user:
+
+  sudo useradd devops_user 
+
+create a group 
+
+  sudo groupadd devops_team
+
+add user to group :
+
+ sudo usermod -aG devops_team devops_user 
+
+set user password:
+
+ sudo passwd devops_user
+
+Grant sudo access by adding user to sudoers (or to sudo group):
+
+  sudo usermod -aG sudo devops_user
+
+Restrict SSH login for certain user by editing /etc/ssh/sshd_config : add lines like :
+
+  AllowUsers devops_user
+
+Reload SSH service after changes:
+
+   sudo systemctl reload sshd
+
+
+
+
+
