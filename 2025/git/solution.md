@@ -41,7 +41,14 @@ git push -u origin master
 # Checked commit history
 git log
 
+```
+commit 040eafab140659dde273a56dda01f3df211365ff (HEAD -> master, orgin/master)
+Author: Nidhi-kumarii <ns4732900@gmail.com>
+Date:   Tue Jun 10 08:58:41 2025 +0000
+```
+    I
 
+```
 ## Why Branching Strategies Are Important
 Branching is a powerful feature of Git that allows developers to work on different parts of a project independently. Here’s why branching strategies matter:
 
